@@ -20,7 +20,6 @@
     "sequelize": "^6.29.3"
   },
   "devDependencies": {
-    "msnodesqlv8": "^3.0.1",
     "mssql": "^9.1.1"
   }
 }
