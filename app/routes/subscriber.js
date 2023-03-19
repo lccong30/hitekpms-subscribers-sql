@@ -2,8 +2,8 @@ const subscriberCtrl = require("../controllers/subscriberCtrl");
 
 const subscriberRouter = require("express").Router();
 
-subscriberRouter.post("/subscriber", subscriberCtrl.create_db);
 subscriberRouter.get("/subscriber", subscriberCtrl.getSubscribers);
+subscriberRouter.post("/subscriber", subscriberCtrl.create_db);
 
 subscriberRouter.put(
   "/subscriber-contacted/:uid",

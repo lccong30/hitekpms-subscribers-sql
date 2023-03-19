@@ -14,7 +14,7 @@ app.use(express.json());
 //Doc duoc data theo kieu object array
 app.use(express.urlencoded({ extended: true }));
 
-db.sequelize.sync();
+// db.sequelize.sync();
 
 // const dbConnect = async () => {
 //   try {
